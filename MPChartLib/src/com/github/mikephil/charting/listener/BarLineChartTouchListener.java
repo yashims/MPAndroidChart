@@ -11,7 +11,6 @@ import android.view.View;
 import android.view.animation.AnimationUtils;
 
 import com.github.mikephil.charting.charts.BarLineChartBase;
-import com.github.mikephil.charting.charts.HorizontalBarChart;
 import com.github.mikephil.charting.data.BarLineScatterCandleBubbleData;
 import com.github.mikephil.charting.data.BarLineScatterCandleBubbleDataSet;
 import com.github.mikephil.charting.data.DataSet;
@@ -268,7 +267,8 @@ public class BarLineChartTouchListener extends ChartTouchListener<BarLineChartBa
                 && mChart.getAxis(mClosestDataSetToTouch.getAxisDependency()).isInverted()) {
 
             // if there is an inverted horizontalbarchart
-            if (mChart instanceof HorizontalBarChart) {
+            //if (mChart instanceof HorizontalBarChart) {
+            if (false) {
                 dX = -(event.getX() - mTouchStartPoint.x);
                 dY = event.getY() - mTouchStartPoint.y;
             } else {

@@ -6,7 +6,6 @@ import android.graphics.Path;
 import android.graphics.RectF;
 
 import com.github.mikephil.charting.data.BarData;
-import com.github.mikephil.charting.data.CandleEntry;
 import com.github.mikephil.charting.data.Entry;
 
 import java.util.List;
@@ -175,6 +174,7 @@ public class Transformer {
      * @param entries
      * @return
      */
+    /*
     public float[] generateTransformedValuesCandle(List<CandleEntry> entries,
                                                    float phaseX, float phaseY, int from, int to) {
 
@@ -196,6 +196,7 @@ public class Transformer {
 
         return valuePoints;
     }
+    */
 
     /**
      * Transforms an List of Entry into a float array containing the x and

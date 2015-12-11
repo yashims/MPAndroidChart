@@ -186,8 +186,10 @@ public abstract class ChartData<T extends DataSet<? extends Entry>> {
         if (mDataSets == null)
             return;
 
+        /*
         if(this instanceof ScatterData)
             return;
+        */
 
         for (int i = 0; i < mDataSets.size(); i++) {
             if (mDataSets.get(i)

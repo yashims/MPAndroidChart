@@ -214,6 +214,7 @@ public abstract class PieRadarChartBase<T extends ChartData<? extends DataSet<? 
 
         float minOffset = Utils.convertDpToPixel(mMinOffset);
 
+        /*
         if (this instanceof RadarChart) {
             XAxis x = ((RadarChart) this).getXAxis();
 
@@ -221,6 +222,7 @@ public abstract class PieRadarChartBase<T extends ChartData<? extends DataSet<? 
                 minOffset = Math.max(minOffset, x.mLabelRotatedWidth);
             }
         }
+        */
 
         legendTop += getExtraTopOffset();
         legendRight += getExtraRightOffset();

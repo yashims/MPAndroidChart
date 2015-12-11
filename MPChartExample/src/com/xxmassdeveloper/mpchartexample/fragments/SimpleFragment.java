@@ -8,21 +8,14 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.github.mikephil.charting.charts.ScatterChart;
-import com.github.mikephil.charting.charts.ScatterChart.ScatterShape;
 import com.github.mikephil.charting.data.BarData;
 import com.github.mikephil.charting.data.BarDataSet;
 import com.github.mikephil.charting.data.BarEntry;
 import com.github.mikephil.charting.data.ChartData;
 import com.github.mikephil.charting.data.Entry;
-import com.github.mikephil.charting.data.LineData;
-import com.github.mikephil.charting.data.LineDataSet;
 import com.github.mikephil.charting.data.PieData;
 import com.github.mikephil.charting.data.PieDataSet;
-import com.github.mikephil.charting.data.ScatterData;
-import com.github.mikephil.charting.data.ScatterDataSet;
 import com.github.mikephil.charting.utils.ColorTemplate;
-import com.github.mikephil.charting.utils.FileUtils;
 
 import java.util.ArrayList;
 
@@ -63,7 +56,8 @@ public abstract class SimpleFragment extends Fragment {
         d.setValueTypeface(tf);
         return d;
     }
-    
+
+    /*
     protected ScatterData generateScatterData(int dataSets, float range, int count) {
         
         ArrayList<ScatterDataSet> sets = new ArrayList<ScatterDataSet>();
@@ -90,6 +84,7 @@ public abstract class SimpleFragment extends Fragment {
         d.setValueTypeface(tf);
         return d;
     }
+    */
     
     /**
      * generates less data (1 DataSet, 4 values)
@@ -124,7 +119,8 @@ public abstract class SimpleFragment extends Fragment {
 
         return d;
     }
-    
+
+    /*
     protected LineData generateLineData() {
         
 //        DataSet ds1 = new DataSet(n, "O(n)");  
@@ -161,7 +157,9 @@ public abstract class SimpleFragment extends Fragment {
         d.setValueTypeface(tf);
         return d;
     }
-    
+    */
+
+    /*
     protected LineData getComplexity() {
         
         ArrayList<LineDataSet> sets = new ArrayList<LineDataSet>();
@@ -201,6 +199,7 @@ public abstract class SimpleFragment extends Fragment {
         d.setValueTypeface(tf);
         return d;
     }
+    */
     
     private String[] mLabels = new String[] { "Company A", "Company B", "Company C", "Company D", "Company E", "Company F" };
 //    private String[] mXVals = new String[] { "Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Okt", "Nov", "Dec" };

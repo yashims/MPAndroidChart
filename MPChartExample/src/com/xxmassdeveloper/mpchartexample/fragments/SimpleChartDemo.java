@@ -60,18 +60,22 @@ public class SimpleChartDemo extends DemoBase {
             Fragment f = null;
             
             switch(pos) {
+            /*
             case 0:
                 f = SineCosineFragment.newInstance();
                 break;
             case 1:
                 f = ComplexityFragment.newInstance();
                 break;
+            */
             case 2:
                 f = BarChartFrag.newInstance();
                 break;
+            /*
             case 3:
                 f = ScatterChartFrag.newInstance();
                 break;
+             */
             case 4:
                 f = PieChartFrag.newInstance();
                 break;

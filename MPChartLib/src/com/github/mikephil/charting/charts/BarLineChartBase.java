@@ -574,7 +574,8 @@ public abstract class BarLineChartBase<T extends BarLineScatterCandleBubbleData<
             int setCount = mData.getDataSetCount();
             int i = e.getXIndex();
 
-            if (this instanceof HorizontalBarChart) {
+            //if (this instanceof HorizontalBarChart) {
+            if (false) {
 
                 // calculate the x-position, depending on datasetcount
                 float y = i + i * (setCount - 1) + dataSetIndex + space * i + space / 2f;

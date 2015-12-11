@@ -114,6 +114,7 @@ public class PieChartActivity extends DemoBase implements OnSeekBarChangeListene
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
 
+        /*
         switch (item.getItemId()) {
             case R.id.actionToggleValues: {
                 for (DataSet<?> set : mChart.getData().getDataSets())
@@ -166,6 +167,7 @@ public class PieChartActivity extends DemoBase implements OnSeekBarChangeListene
                 break;
             }
         }
+        */
         return true;
     }
 
